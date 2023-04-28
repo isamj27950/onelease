@@ -1,0 +1,117 @@
+.navbar {
+    background:white;
+    height: 80px;;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    position:sticky;
+    top: 0;
+    z-index:20;
+
+}
+
+.nav-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    max-width: 1500px;
+}
+
+.nav-logo{
+    align-items:center;
+  
+
+}
+.nav-menu{
+    display: flex;
+    list-style: none;
+    text-align: center;
+    margin-right: 2rem;
+}
+.nav-menu.active {
+    background-color: red;
+    left: 0px;
+    opacity:1;
+    transition: all 0.5s ease;
+    z-index: 1;
+}
+.nav-links {
+    color:#000;
+    text-decoration: none;
+    padding: 0.5rem 2rem;
+    height: 100%;
+    border-bottom: 3px solid transparent;
+}
+
+.nav-item{
+    line-height: 40px;
+    margin-right: 1rem;
+}
+
+.nav-item:after {
+    content:"";
+    display: block;
+    height: 3px;
+    width: 0;
+    color: #838de9;
+    background: transparent;
+    transition: width 0.7s ease, background-color 0.5s ease;
+
+}
+nav-item .active{
+    color:#838de9;
+    border:1px solid #838de9;
+}
+
+.nav-item:hover{
+    width: 100%;
+    background: #838de9;
+}
+
+.nav-icon{
+    display: none;
+}
+
+@media(max-width: 600px) {
+    .nav-menu{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        border-top: 1pxsolid white;
+        position: absolute;
+        bottom: 10px;
+        left: 3rem;
+        
+        opacity: 1;
+        background-color: white;
+        
+    }
+    .nav-menu .active {
+        background: #838de9;
+        left:0px;
+        opacity: 1;
+        transition:all o.5s ease; 
+        z-index: 1;
+    }
+    .nav-item .active {
+        color:#838de9;
+        border: none;
+    }
+    .nav_icon{
+        display: block;
+        position: absolute;
+        top: 0;
+        right:0;
+        transform: translate(-100%,60%);
+        font-size: 1.8rem;
+        cursor: pointer;
+        color: #000;
+    
+    }
+    .nav-icon i{
+      background-color: red;
+    }
+}

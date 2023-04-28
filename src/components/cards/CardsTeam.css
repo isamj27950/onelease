@@ -1,0 +1,45 @@
+.card{
+    max-width:300px;
+    height:480px;
+    background:whitesmoke;
+    border-radius: 30px;
+    box-shadow:0px 1px 10px 1px white;
+    border:3px solid #57007f;
+ 
+
+}
+.upper-container {
+    height:300px;
+    background-color:#57007f ;
+    text-align: center;
+    color: white;
+    align-items: flex-start;
+    border-top-left-radius: 8%;
+    border-top-right-radius:8% ;
+   
+}
+.upper-container h2 {
+    font-size: larger;
+    font-weight: 400;
+    padding-bottom: 0.8rem;
+    text-transform: uppercase;
+    
+}
+.lower-container{
+    margin-left: 0.2rem;
+   
+}
+.lower-container .desc,.content {
+    color:#57007f;
+    font-weight: 700;
+    padding-top: 0.8rem;
+}
+.lower-container p{
+   font-size: 14px; 
+   font-weight: 700;
+   font-style: italic;
+  
+}
+
+
+
