@@ -9,16 +9,19 @@ import CardBack from '../cards/CardBack';
 export default function TeamsPage(id,url_img, title,subtitle, desc, content) {
   return (
     <div>
-        <Navigation/>
-        <div className='text-center py-4'> 
-          <h1 className='font-semibold text-[#57007f] uppercase text-2xl '
-          >Découvrez la one team</h1>
-            <hr className='w-44 m-auto h-1  bg-[#57007f]'></hr>
-            <h3 className='italic font-normal text-lg pt-2'>de <span className='font-bold text-[#57007f]'>A à T</span></h3>
-        </div>
-        <div className="flex justify-center flex-wrap gap-6 mx-30 px-20  ">
-          {dataTeam.map((item,index)=>(
-            <CardsTeam 
+      <Navigation />
+      <div className="text-center py-4 ">
+        <h1 className="font-semibold text-[#57007f] uppercase text-4xl py-3">
+          Découvrez la one team
+        </h1>
+        <hr className="w-40 m-auto h-1  bg-[#57007f]"></hr>
+        <h3 className="italic font-normal text-lg pt-2">
+          de <span className="font-bold text-sky-200">A à T</span>
+        </h3>
+      </div>
+      <div className="flex justify-center  flex-wrap gap-8 my-4 mx-4  px-12">
+        {dataTeam.map((item, index) => (
+          <CardsTeam
             key={index.id}
             url_img={item.img}
             title={item.title}
@@ -27,13 +30,15 @@ export default function TeamsPage(id,url_img, title,subtitle, desc, content) {
             desc={item.desc}
             contenttitle={item.contenttitle}
             content={item.content}
-            />
-          )
-          )}</div>
-          <CardBack/>
-        <FooterPart />
+          />
+        ))}
+      </div>
+      <div className=''>
+        <hr className="w-48 m-auto h-1  bg-[#57007f]"></hr>
+        <CardBack />
+      </div>
+
+      <FooterPart />
     </div>
-       
-  
-  )
+  );
 }

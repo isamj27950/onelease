@@ -52,7 +52,7 @@ export const dataTeam = [
   },
   {
     id: 6,
-    url_img: "img-one-lease/equipe/Ph_Gauthier.jpg",
+    img: "img-one-lease/equipe/Ph_Gauthier.jpg",
     title: "Gauthier",
     subtitle: "Directeur des Systèmesd'information, SonofAnachy ",
     desctitle: "Sa citation préférée:",
@@ -62,7 +62,7 @@ export const dataTeam = [
   },
   {
     id: 7,
-    url_img: "img-one-lease/equipe/Gauthier_jfif.jpg",
+    img: "img-one-lease/equipe/Gauthier_jfif.jpg",
     title: "Inés",
     subtitle: "ResponsableOpérations aprésVente,Evelyn Salt ",
     desctitle: "Sa citation préférée:",
@@ -72,7 +72,7 @@ export const dataTeam = [
   },
   {
     id: 8,
-    url_img: "img-one-lease/equipe/Gauthier_jfif.jpg",
+    img: "img-one-lease/equipe/Gauthier_jfif.jpg",
     title: "Jean-Basptiste(JB)",
     subtitle: "Commercial,Le sudiste ",
     desctitle: "Sa citation préférée:",
@@ -82,7 +82,7 @@ export const dataTeam = [
   },
   {
     id: 9,
-    url_img: "img-one-lease/equipe/IMG_8900.jpeg",
+    img: "img-one-lease/equipe/IMG_8900.jpeg",
     title: "Jérémy",
     subtitle: "Responsable Opérations Logistique, Le one man show ",
     desctitle: "Sa citation préférée:",
@@ -92,7 +92,7 @@ export const dataTeam = [
   },
   {
     id: 10,
-    url_img: "img-one-lease/equipe/img_9013.jpg",
+    img: "img-one-lease/equipe/img_9013.jpg",
     title: "Jérémy",
     subtitle: "Directeur Achats & Remarking,Le boss de la négoce ",
     desctitle: "Sa citation préférée:",
@@ -102,9 +102,9 @@ export const dataTeam = [
   },
   {
     id: 11,
-    url_img: "img-one-lease/equipe/IMG_8882-1.jpg",
+    img: "img-one-lease/equipe/IMG_8882-1.jpg",
     title: "Joanna",
-    subtitle: "estionnaire opérations Logistique, Carlos le camionneur ",
+    subtitle: "Gestionnaire opérations Logistique, Carlos le camionneur ",
     desctitle: "Sa citation préférée:",
     desc: " Fais de ta vie un rêve et ton rêve une réalité, Antoine de Saint-Expéry ",
     contenttitle: "Ce qu'elle aime dans la vie:",
@@ -112,7 +112,7 @@ export const dataTeam = [
   },
   {
     id: 12,
-    url_img: "img-one-lease/equipe/Gauthier_jfif.jpg",
+    img: "img-one-lease/equipe/Gauthier_jfif.jpg",
     title: "Julien",
     subtitle: "Directeur Opérations & Marketing ,El professor ",
     desctitle: "Sa citation préférée:",
@@ -122,7 +122,7 @@ export const dataTeam = [
   },
   {
     id: 13,
-    url_img: "img-one-lease/equipe/Gauthier_jfif.jpg",
+    img: "img-one-lease/equipe/Gauthier_jfif.jpg",
     title: "Marc",
     subtitle: "Directeur Commercial,L'électromobile convaincu ",
     desctitle: "Sa citation préférée:",
@@ -132,7 +132,7 @@ export const dataTeam = [
   },
   {
     id: 14,
-    url_img: "img-one-lease/equipe/IMG_8982.jpg",
+    img: "img-one-lease/equipe/IMG_8982.jpg",
     title: "Olivier",
     subtitle: "Président & CEO,Le Big Boss ",
     desctitle: "Sa citation préférée:",
@@ -142,7 +142,7 @@ export const dataTeam = [
   },
   {
     id: 15,
-    url_img: "img-one-lease/equipe/Gauthier_jfif.jpg",
+    img: "img-one-lease/equipe/Gauthier_jfif.jpg",
     title: "Pierre",
     subtitle: "Analyste Financier, Jordan Beaufort ",
     desctitle: "Sa citation préférée:",
@@ -152,7 +152,7 @@ export const dataTeam = [
   },
   {
     id: 16,
-    url_img: "img-one-lease/equipe/IMG_8993.webp",
+    img: "img-one-lease/equipe/IMG_8993.webp",
     title: "Quentin",
     subtitle: "Gestionnaire Opérations Après-Vente, Pinpin ",
     desctitle: "Sa citation préférée:",
@@ -162,7 +162,7 @@ export const dataTeam = [
   },
   {
     id: 17,
-    url_img: "",
+    img: "",
     title: "Quentin",
     subtitle: "Directeur régional, Le lyonnais ",
     desctitle: "Sa citation préférée:",
@@ -172,7 +172,7 @@ export const dataTeam = [
   },
   {
     id: 18,
-    url_img: "",
+    img: "",
     title: "Richard",
     subtitle: "Chargé Opérations logistique, Le bon gendre ",
     contenttitle: "Ce qu'il aime dans la vie:",
@@ -180,7 +180,7 @@ export const dataTeam = [
   },
   {
     id: 19,
-    url_img: "",
+    img: "",
     title: "Ricardo",
     subtitle: "Apprenti Comptable, Plata o plomo ",
     desctitle: "Sa citation préférée:",
@@ -200,7 +200,7 @@ export const dataTeam = [
   },
   {
     id: 21,
-    url_img: "",
+    img: "",
     title: "Théo",
     subtitle: "Gestionnaire Opérations Logistique, Le pongiste ",
     desctitle: "Sa citation préférée:",

@@ -28,7 +28,9 @@ function HomePage() {
                 flotte ou conducteur!
               </p>
               <div className='btn'> 
-                <Button className="" /> 
+                <Button
+                title="Contactez-Nous"
+                /> 
               </div>  
             </div>
             <div class="phone">
