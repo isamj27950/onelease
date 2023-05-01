@@ -1,15 +1,15 @@
 /* eslint-disable no-undef */
 import React from 'react'
-import Navigation from '../navbar/Navigation';
-import FooterPart from '../footer/FooterPart';
 import CardsTeam from '../cards/CardsTeam';
 import { dataTeam } from '../data/dataTeam';
 import CardBack from '../cards/CardBack';
+import Layouts from '../layout/Layout';
 
 export default function TeamsPage(id,url_img, title,subtitle, desc, content) {
   return (
-    <div>
-      <Navigation />
+  
+      <div>
+      <Layouts/> 
       <div className="text-center py-4 ">
         <h1 className="font-semibold text-[#57007f] uppercase text-4xl py-3">
           Découvrez la one team
@@ -37,8 +37,8 @@ export default function TeamsPage(id,url_img, title,subtitle, desc, content) {
         <hr className="w-48 m-auto h-1  bg-[#57007f]"></hr>
         <CardBack />
       </div>
-
-      <FooterPart />
+    <Layouts/>
     </div>
+   
   );
 }

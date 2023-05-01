@@ -62,7 +62,7 @@ export const dataTeam = [
   },
   {
     id: 7,
-    img: "img-one-lease/equipe/Gauthier_jfif.jpg",
+    img: "img-one-lease/equipe/IMG_8012.png",
     title: "Inés",
     subtitle: "ResponsableOpérations aprésVente,Evelyn Salt ",
     desctitle: "Sa citation préférée:",
@@ -72,7 +72,7 @@ export const dataTeam = [
   },
   {
     id: 8,
-    img: "img-one-lease/equipe/Gauthier_jfif.jpg",
+    img: "img-one-lease/equipe/photoJB.png",
     title: "Jean-Basptiste(JB)",
     subtitle: "Commercial,Le sudiste ",
     desctitle: "Sa citation préférée:",
@@ -92,7 +92,7 @@ export const dataTeam = [
   },
   {
     id: 10,
-    img: "img-one-lease/equipe/img_9013.jpg",
+    img: "img-one-lease/equipe/photo jer.png",
     title: "Jérémy",
     subtitle: "Directeur Achats & Remarking,Le boss de la négoce ",
     desctitle: "Sa citation préférée:",
@@ -102,7 +102,7 @@ export const dataTeam = [
   },
   {
     id: 11,
-    img: "img-one-lease/equipe/IMG_8882-1.jpg",
+    img: "img-one-lease/equipe/IMG_8882.jpg",
     title: "Joanna",
     subtitle: "Gestionnaire opérations Logistique, Carlos le camionneur ",
     desctitle: "Sa citation préférée:",
@@ -112,7 +112,7 @@ export const dataTeam = [
   },
   {
     id: 12,
-    img: "img-one-lease/equipe/Gauthier_jfif.jpg",
+    img: "img-one-lease/equipe/IMG_8939.png",
     title: "Julien",
     subtitle: "Directeur Opérations & Marketing ,El professor ",
     desctitle: "Sa citation préférée:",
@@ -122,7 +122,7 @@ export const dataTeam = [
   },
   {
     id: 13,
-    img: "img-one-lease/equipe/Gauthier_jfif.jpg",
+    img: "img-one-lease/equipe/IMG_8915.png",
     title: "Marc",
     subtitle: "Directeur Commercial,L'électromobile convaincu ",
     desctitle: "Sa citation préférée:",
@@ -132,7 +132,7 @@ export const dataTeam = [
   },
   {
     id: 14,
-    img: "img-one-lease/equipe/IMG_8982.jpg",
+    img: "img-one-lease/equipe/DSC.png",
     title: "Olivier",
     subtitle: "Président & CEO,Le Big Boss ",
     desctitle: "Sa citation préférée:",
@@ -142,7 +142,7 @@ export const dataTeam = [
   },
   {
     id: 15,
-    img: "img-one-lease/equipe/Gauthier_jfif.jpg",
+    img: "img-one-lease/equipe/photopi.png",
     title: "Pierre",
     subtitle: "Analyste Financier, Jordan Beaufort ",
     desctitle: "Sa citation préférée:",
@@ -152,7 +152,7 @@ export const dataTeam = [
   },
   {
     id: 16,
-    img: "img-one-lease/equipe/IMG_8993.webp",
+    img: "img-one-lease/equipe/IMG_8920.png",
     title: "Quentin",
     subtitle: "Gestionnaire Opérations Après-Vente, Pinpin ",
     desctitle: "Sa citation préférée:",
@@ -162,7 +162,7 @@ export const dataTeam = [
   },
   {
     id: 17,
-    img: "",
+    img: "img-one-lease/equipe/IMG_8993.png",
     title: "Quentin",
     subtitle: "Directeur régional, Le lyonnais ",
     desctitle: "Sa citation préférée:",
@@ -172,7 +172,7 @@ export const dataTeam = [
   },
   {
     id: 18,
-    img: "",
+    img: "img-one-lease/equipe/IMG_8949.png",
     title: "Richard",
     subtitle: "Chargé Opérations logistique, Le bon gendre ",
     contenttitle: "Ce qu'il aime dans la vie:",
@@ -180,7 +180,7 @@ export const dataTeam = [
   },
   {
     id: 19,
-    img: "",
+    img: "img-one-lease/equipe/IMG_9018.png",
     title: "Ricardo",
     subtitle: "Apprenti Comptable, Plata o plomo ",
     desctitle: "Sa citation préférée:",
@@ -200,7 +200,7 @@ export const dataTeam = [
   },
   {
     id: 21,
-    img: "",
+    img: "img-one-lease/equipe/IMG_8907.png",
     title: "Théo",
     subtitle: "Gestionnaire Opérations Logistique, Le pongiste ",
     desctitle: "Sa citation préférée:",
