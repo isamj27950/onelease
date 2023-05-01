@@ -1,14 +1,16 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import "./CardsHero.css"
 
-export default function CardsHero({content,title,url_img,id}) {
+function CardsHero({content,title,url_img,id}) {
   return (
-    <div className='max-w-xs shadow-lg bg-slate-50'>
+    <div className='container'>
       <Link to={`/post/${id}`}> 
-        <img src="img-on-lease/home/svgexport-5.svg" alt=''className='' />
-        <h3 className='text-[#0000ee]'>{title}</h3>
-        <p className='text-[#0000ee]'>{content}</p>
+        <img src={url_img} alt=''className='' />
+        <h3>{title}</h3>
+        <p>{content}</p>
         </Link>
     </div>
   )
 }
+export default CardsHero

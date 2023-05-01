@@ -1,117 +1,126 @@
-.navbar {
-    background:white;
-    height: 80px;;
-    display: flex;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    display:flex;
     justify-content: center;
     align-items: center;
-    font-size: 1.2rem;
-    position:sticky;
-    top: 0;
-    z-index:20;
-
-}
-
-.nav-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 80px;
-    max-width: 1500px;
-}
-
-.nav-logo{
-    align-items:center;
-  
-
-}
-.nav-menu{
-    display: flex;
-    list-style: none;
-    text-align: center;
-    margin-right: 2rem;
-}
-.nav-menu.active {
-    background-color: red;
-    left: 0px;
-    opacity:1;
-    transition: all 0.5s ease;
-    z-index: 1;
-}
-.nav-links {
+    background-color: white;
     color:#000;
-    text-decoration: none;
-    padding: 0.5rem 2rem;
-    height: 100%;
-    border-bottom: 3px solid transparent;
+   
+    
 }
-
-.nav-item{
-    line-height: 40px;
-    margin-right: 1rem;
-}
-
-.nav-item:after {
-    content:"";
-    display: block;
-    height: 3px;
-    width: 0;
-    color: #838de9;
-    background: transparent;
-    transition: width 0.7s ease, background-color 0.5s ease;
+.logo{
+    font-size:2rem;
 
 }
-nav-item .active{
-    color:#838de9;
-    border:1px solid #838de9;
+
+.nav-links{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    list-style: none;
+    color: #000;
+    }
+
+.nav-links :hover{
+    color:#57007f
+} 
+.navbar .nav-links .active{
+    color:#57007f
 }
 
-.nav-item:hover{
-    width: 100%;
-    background: #838de9;
+.home,
+.about,
+.lld,
+.serve,
+.av,
+.team,
+.fi,
+.res,
+.new,
+.btnnav {
+text-decoration: none;
+padding: 10px 20px;
+margin:0 ;
+cursor:pointer;
 }
 
-.nav-icon{
+
+.btnnav{
+    border: 0;
+    background-color: #57007f;
+    color:white;
+    font-size: 1rem;
+    padding: 0.3rem 1.4rem;
+    border-radius:0.5rem;
+    border: white;
+}
+ .mobile-menu-icon{
     display: none;
+ }
+
+
+@media(max-width: 1440px) {
+    
+    .logo{
+       display: flex;
+       position: absolute;
+       top:0.5rem;
+       left:6rem;
+        
+    }
+
+    .nav-links{
+        display: none;
+    }
+    .nav-links-mobile{
+        position:absolute;
+        display: block;
+        list-style: none;
+        background-color:white;
+        height: 100%;
+        top: 3rem;
+        transition: all 0.5s ease-out;
+        width: 100%;
+    }
+   
+.home,
+.about,
+.lld,
+.serve,
+.av,
+.team,
+.fi,
+.res,
+.new,
+.btnnav  {
+    color: #000;
+    background-color: white;
+    text-align: center;
+    padding: 32px;
+    width: 100%;
+    transition: all 0.5s ease;
+    
 }
 
-@media(max-width: 600px) {
-    .nav-menu{
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        border-top: 1pxsolid white;
-        position: absolute;
-        bottom: 10px;
-        left: 3rem;
-        
-        opacity: 1;
-        background-color: white;
-        
-    }
-    .nav-menu .active {
-        background: #838de9;
-        left:0px;
-        opacity: 1;
-        transition:all o.5s ease; 
-        z-index: 1;
-    }
-    .nav-item .active {
-        color:#838de9;
-        border: none;
-    }
-    .nav_icon{
+
+
+.mobile-menu-icon{
         display: block;
         position: absolute;
-        top: 0;
-        right:0;
-        transform: translate(-100%,60%);
-        font-size: 1.8rem;
-        cursor: pointer;
-        color: #000;
-    
+        font-size: 30px;
+        color: black;
+        top:0;
+        right:2rem;
+        
     }
-    .nav-icon i{
-      background-color: red;
-    }
+
+  
 }
+
+

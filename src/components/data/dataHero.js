@@ -4,9 +4,9 @@
 export const dataHero =[
     {
         id:1,
-        url_img:"img-one-lease/home/svgexport-4.svg",
+        url_img:"/img-one-lease/home/svgexport-4.svg",
         title:"Fini d'attendre au telephone",
-        content:"nous répondons en moins de 5 sonneries"
+        content:"Nous répondons en moins de 5 sonneries !"
     },
     {
         id:2,
