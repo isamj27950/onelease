@@ -7,9 +7,8 @@ import Layouts from '../layout/Layout';
 
 export default function TeamsPage(id,url_img, title,subtitle, desc, content) {
   return (
-  
-      <div>
-      <Layouts/> 
+    <Layouts>
+      <div>     
       <div className="text-center py-4 ">
         <h1 className="font-semibold text-[#57007f] uppercase text-4xl py-3">
           Découvrez la one team
@@ -36,9 +35,8 @@ export default function TeamsPage(id,url_img, title,subtitle, desc, content) {
       <div className=''>
         <hr className="w-48 m-auto h-1  bg-[#57007f]"></hr>
         <CardBack />
-      </div>
-    <Layouts/>
+      </div>  
     </div>
-   
+  </Layouts>
   );
 }
