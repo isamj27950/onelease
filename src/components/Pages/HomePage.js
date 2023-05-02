@@ -42,7 +42,7 @@ function HomePage() {
                 <h2 className="text-white"> 01.85.74.78.00</h2>
               </div>
             </div>
-            <div className="flex">
+            <div className="flex ">
               {dataHero.map((item, index) => (
                 <CardsHero
                   key={index}
